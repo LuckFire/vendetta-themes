@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "vendetta-themes",
+  "type": "module",
+  "scripts": {
+    "app": "node ./src/app.js",
+    "schema": "node ./src/generate-schema.js"
+  },
+  "author": "LuckFire",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

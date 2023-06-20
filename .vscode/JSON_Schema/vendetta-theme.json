@@ -1,0 +1,2635 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Vendetta Theme Schema",
+    "description": "A schema for Vendetta themes.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "authors": {
+            "type": "array",
+            "items": {
+                "name": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "number"
+                }
+            }
+        },
+        "semanticColors": {
+            "type": "object",
+            "properties": {
+                "ACTIVITY_CARD_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "ANDROID_NAVIGATION_BAR_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "ANDROID_RIPPLE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_ACCENT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_FLOATING": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MENTIONED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MENTIONED_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MESSAGE_AUTOMOD": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MESSAGE_AUTOMOD_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MESSAGE_HIGHLIGHT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MESSAGE_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MOBILE_PRIMARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MOBILE_SECONDARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MODIFIER_ACCENT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MODIFIER_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MODIFIER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_MODIFIER_SELECTED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_NESTED_FLOATING": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_PRIMARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_SECONDARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_SECONDARY_ALT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BACKGROUND_TERTIARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_DANGER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_DANGER_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_DANGER_BACKGROUND_DISABLED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_DANGER_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BORDER_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_BORDER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_TEXT_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_DANGER_TEXT_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_POSITIVE_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_POSITIVE_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_POSITIVE_BACKGROUND_DISABLED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_POSITIVE_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_SECONDARY_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_SECONDARY_BACKGROUND_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_SECONDARY_BACKGROUND_DISABLED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "BUTTON_SECONDARY_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHANNEL_ICON": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHANNEL_TEXT_AREA_PLACEHOLDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHANNELS_DEFAULT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHANNELTEXTAREA_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHAT_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHAT_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CHAT_INPUT_CONTAINER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CONTROL_BRAND_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "CONTROL_BRAND_FOREGROUND_NEW": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_CARD_BG": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_CARD_EDITABLE_BG": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_STORE_BG": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_TEXT_INPUT_BG": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_TEXT_INPUT_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_TEXT_INPUT_BORDER_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DEPRECATED_TEXT_INPUT_PREFIX": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "FOCUS_PRIMARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "FORUM_POST_TAG_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "HEADER_PRIMARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "HEADER_SECONDARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "HOME_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "HOME_CARD_RESTING_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_BOX_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_DANGER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_DANGER_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_DANGER_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_HELP_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_HELP_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_HELP_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_POSITIVE_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_POSITIVE_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_POSITIVE_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_WARNING_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_WARNING_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INFO_WARNING_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INPUT_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INPUT_PLACEHOLDER_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INTERACTIVE_ACTIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INTERACTIVE_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INTERACTIVE_MUTED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "INTERACTIVE_NORMAL": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "LIVE_STAGE_TILE_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "LOGO_PRIMARY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "MENTION_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "MENTION_FOREGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "MODAL_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "MODAL_FOOTER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_NOTE_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_OVERLAY": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_PROFILE_BODY_BACKGROUND_HOVER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_ROLE_PILL_BORDER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "PROFILE_GRADIENT_SECTION_BOX": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_AUTO_SCROLLBAR_COLOR_TRACK": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_AUTO_THUMB": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_AUTO_TRACK": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_THIN_THUMB": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SCROLLBAR_THIN_TRACK": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SPOILER_HIDDEN_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "SPOILER_REVEALED_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_DANGER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_DANGER_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_DANGER_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_POSITIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_POSITIVE_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_POSITIVE_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_WARNING": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_WARNING_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "STATUS_WARNING_TEXT": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_BRAND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_DANGER": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_LINK": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_LINK_LOW_SATURATION": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_MUTED": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_NORMAL": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_POSITIVE": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXT_WARNING": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "TEXTBOX_MARKDOWN_SYNTAX": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                },
+                "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color"
+                    }
+                }
+            }
+        },
+        "rawColors": {
+            "type": "object",
+            "properties": {
+                "APPLICATION_SUBSCRIPTION_END": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "APPLICATION_SUBSCRIPTION_START": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BATTLENET": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CHROMA_GLOW_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CHROMA_GLOW_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CHROMA_GLOW_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CHROMA_GLOW_4": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CHROMA_GLOW_5": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CITRUS_SHERBERT_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CITRUS_SHERBERT_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_COTTON_CANDY_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_COTTON_CANDY_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CRIMSON_MOON_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_CRIMSON_MOON_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_DESERT_KHAKI_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_DESERT_KHAKI_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_DESERT_KHAKI_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_DUSK_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_DUSK_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_EASTER_EGG_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_EASTER_EGG_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_FOREST_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_FOREST_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_FOREST_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_FOREST_4": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_FOREST_5": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_HANAMI_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_HANAMI_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_HANAMI_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_LOFI_VIBES_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_LOFI_VIBES_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_LOFI_VIBES_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_LOFI_VIBES_4": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MARS_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MARS_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MIDNIGHT_BLURPLE_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MIDNIGHT_BLURPLE_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MINT_APPLE_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MINT_APPLE_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_MINT_APPLE_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_RETRO_RAINCLOUD_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_RETRO_RAINCLOUD_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_SUNRISE_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_SUNRISE_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_SUNRISE_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_SUNSET_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_SUNSET_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_UNDER_THE_SEA_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_UNDER_THE_SEA_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BG_GRADIENT_UNDER_THE_SEA_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLACK_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BLUE_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "BRAND_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "CREATOR_REVENUE_END": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "CREATOR_REVENUE_START": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "CRUNCHYROLL": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "EBAY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "EPIC_GAMES": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "FACEBOOK": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GITHUB": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GOLD": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GREEN_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GUILD_BOOSTING_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GUILD_BOOSTING_BLUE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GUILD_BOOSTING_PINK": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GUILD_BOOSTING_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "HYPESQUAD_HOUSE_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "HYPESQUAD_HOUSE_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "HYPESQUAD_HOUSE_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "INPUT_PLACEHOLDER_TEXT_DARK": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "LOL": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ORANGE_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PARTNER": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PAYPAL": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PLAYSTATION": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_BLUE_ALT": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_DARK_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_GOLD": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_GREEN": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_LIGHT_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_ORANGE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_PINK": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_PERK_YELLOW": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_HEADER_GRADIENT_1": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_HEADER_GRADIENT_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_HEADER_GRADIENT_3": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_HEADER_GRADIENT_4": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_HEADER_GRADIENT_5": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_1_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_1_BLUE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_1_DARK_BLUE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_1_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PINK": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PINK_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PINK_FOR_GRADIENTS_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_645": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "PRIMARY_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RED_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "REDDIT": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "RIOT_GAMES": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_BROWN": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_BURGUNDY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_DARK_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_DARK_GREY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_DARK_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_DARK_TEAL": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_DEFAULT": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_GREEN": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_GREY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_LIGHT_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_LIGHT_GREEN": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_LIGHT_GREY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_MAGENTA": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_ORANGE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_PURPLE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_SALMON": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_SKY_BLUE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_TAN": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_TEAL": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_TERRACOTTA": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "ROLE_YELLOW": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "SAMSUNG": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "SKYPE": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "SPOTIFY": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "STEAM": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "TRANSPARENT": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "TWITCH": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "TWITTER": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "WHITE_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "XBOX": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_100": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_130": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_160": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_200": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_230": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_260": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_300": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_330": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_345": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_360": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_400": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_430": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_460": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_500": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_530": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_560": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_600": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_630": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_660": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_700": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_730": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_760": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_800": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_830": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_860": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YELLOW_900": {
+                    "type": "string",
+                    "format": "color"
+                },
+                "YOUTUBE": {
+                    "type": "string",
+                    "format": "color"
+                }
+            }
+        }
+    },
+    "required": [
+        "name",
+        "authors"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "src/themes/*.json"
+            ],
+            "url": "./.vscode/JSON_Schema/vendetta-theme.json"
+        }
+    ]
+}
