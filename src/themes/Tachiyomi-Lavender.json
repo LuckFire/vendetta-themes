@@ -1,0 +1,227 @@
+{
+  "name": "Tachiyomi Lavender",
+  "description": "A theme inspired by Tachiyomi's color scheme.",
+  "authors": [{
+      "name": "LuckFire",
+      "id": 399416615742996480
+  }],
+  "semanticColors": {
+      "ACTIVITY_CARD_BACKGROUND": [
+        "#222046"
+      ],
+      "BACKGROUND_ACCENT": [
+        "#0C0C1D"
+      ],
+      "BACKGROUND_MOBILE_PRIMARY": [
+        "#111128"
+      ],
+      "BACKGROUND_MOBILE_SECONDARY": [
+        "#181632"
+      ],
+      "BACKGROUND_MODIFIER_ACCENT": [
+        "#27253C7a"
+      ],
+      "BACKGROUND_MODIFIER_ACTIVE": [
+        "#27253C7a"
+      ],
+      "BACKGROUND_MODIFIER_HOVER": [
+        "#27253C4d"
+      ],
+      "BACKGROUND_MODIFIER_SELECTED": [
+        "#27253C99"
+      ],
+      "BACKGROUND_NESTED_FLOATING": [
+        "#181632"
+      ],
+      "BACKGROUND_PRIMARY": [
+        "#111128"
+      ],
+      "BACKGROUND_SECONDARY": [
+        "#181632"
+      ],
+      "BACKGROUND_SECONDARY_ALT": [
+        "#1D1B3C"
+      ],
+      "BACKGROUND_TERTIARY": [
+        "#222046"
+      ],
+      "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
+        "#18163299"
+      ],
+      "BUTTON_OUTLINE_BRAND_BACKGROUND": [
+        "#ffffff00"
+      ],
+      "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": [
+        "#4752c4"
+      ],
+      "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": [
+        "#5865f2"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER": [
+        "#5865f2"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
+        "#4752c4"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER_HOVER": [
+        "#5865f2"
+      ],
+      "BUTTON_OUTLINE_BRAND_TEXT": [
+        "#ffffff"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND": [
+        "#ffffff00"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": [
+        "#6d6f78"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": [
+        "#27253C"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER": [
+        "#27253C"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": [
+        "#6d6f78"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": [
+        "#27253C"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_TEXT": [
+        "#ffffff"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": [
+        "#ffffff"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": [
+        "#ffffff"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND": [
+        "#27253C"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_ACTIVE": [
+        "#80848e"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_DISABLED": [
+        "#27253C"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_HOVER": [
+        "#6d6f78"
+      ],
+      "CHANNEL_ICON": [
+        "#8F94A3"
+      ],
+      "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+        "#6d6f78"
+      ],
+      "CHANNELS_DEFAULT": [
+        "#D2DCF9"
+      ],
+      "CHANNELTEXTAREA_BACKGROUND": [
+        "#383a40"
+      ],
+      "CHAT_BACKGROUND": [
+        "#111128"
+      ],
+      "CHAT_BORDER": [
+        "#222046"
+      ],
+      "CHAT_INPUT_CONTAINER_BACKGROUND": [
+        "#111128"
+      ],
+      "CONTROL_BRAND_FOREGROUND": [
+        "#949cf7"
+      ],
+      "CONTROL_BRAND_FOREGROUND_NEW": [
+        "#949cf7"
+      ],
+      "DEPRECATED_CARD_BG": [
+        "#22204699"
+      ],
+      "DEPRECATED_CARD_EDITABLE_BG": [
+        "#2220464d"
+      ],
+      "DEPRECATED_STORE_BG": [
+        "#111128"
+      ],
+      "DEPRECATED_TEXT_INPUT_BG": [
+        "#222046"
+      ],
+      "DEPRECATED_TEXT_INPUT_PREFIX": [
+        "#E0E7FD"
+      ],
+      "DISPLAY_BANNER_OVERFLOW_BACKGROUND": [
+        "#22204680"
+      ],
+      "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": [
+        "#1D1B3Ccc"
+      ],
+      "FORUM_POST_TAG_BACKGROUND": [
+        "#1D1B3Ce6"
+      ],
+      "HEADER_PRIMARY": [
+        "#e0e7fd"
+      ],
+      "HEADER_SECONDARY": [
+        "#8F94A3"
+      ],
+      "INPUT_BACKGROUND": [
+        "#222046"
+      ],
+      "INPUT_PLACEHOLDER_TEXT": [
+        "#8F94A3"
+      ],
+      "INTERACTIVE_ACTIVE": [
+        "#e0e7fd"
+      ],
+      "INTERACTIVE_HOVER": [
+        "#D2DCF9"
+      ],
+      "INTERACTIVE_MUTED": [
+        "#27253C"
+      ],
+      "INTERACTIVE_NORMAL": [
+        "#8F94A3"
+      ],
+      "MODAL_BACKGROUND": [
+        "#111128"
+      ],
+      "MODAL_FOOTER_BACKGROUND": [
+        "#181632"
+      ],
+      "SPOILER_HIDDEN_BACKGROUND": [
+        "#222046"
+      ],
+      "SPOILER_REVEALED_BACKGROUND": [
+        "#1D1B3C"
+      ],
+      "TEXT_BRAND": [
+        "#949cf7"
+      ],
+      "TEXT_MUTED": [
+        "#8F94A3"
+      ],
+      "TEXT_NORMAL": [
+        "#D2DCF9"
+      ],
+      "TEXTBOX_MARKDOWN_SYNTAX": [
+        "#D2DCF9"
+      ],
+      "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+        "#22204680"
+      ]
+    },
+  "rawColors": {
+      "PRIMARY_530": "#0C0C1D",
+      "PRIMARY_600": "#111128",
+      "PRIMARY_630": "#181632",
+      "PRIMARY_660": "#1D1B3C",
+      "PRIMARY_700": "#222046",
+      "PRIMARY_800": "#181632",
+      "YELLOW_300": "#5729D8",
+      "BRAND_500": "#9a79f7",
+      "PREMIUM_TIER_0_PURPLE": "#9a79f7",
+      "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS": "#9a79f7",
+      "PREMIUM_TIER_1_BLUE_FOR_GRADIENTS": "#9a79f7"
+  }
+}
