@@ -18,7 +18,7 @@ writeFileSync('./.vscode/JSON_Schema/vendetta-theme.json', JSON.stringify({
                         "type": "string"
                     },
                     "id": {
-                        "type": [ "string", "number" ]
+                        "type": "string"
                     }
                 }
             }
