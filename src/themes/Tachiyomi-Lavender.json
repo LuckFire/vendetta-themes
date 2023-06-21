@@ -115,7 +115,7 @@
         "#6d6f78"
       ],
       "CHANNELS_DEFAULT": [
-        "#D2DCF9"
+        "#B3BFE5"
       ],
       "CHANNELTEXTAREA_BACKGROUND": [
         "#383a40"
@@ -175,7 +175,7 @@
         "#e0e7fd"
       ],
       "INTERACTIVE_HOVER": [
-        "#D2DCF9"
+        "#B3BFE5"
       ],
       "INTERACTIVE_MUTED": [
         "#27253C"
@@ -202,10 +202,10 @@
         "#8F94A3"
       ],
       "TEXT_NORMAL": [
-        "#D2DCF9"
+        "#B3BFE5"
       ],
       "TEXTBOX_MARKDOWN_SYNTAX": [
-        "#D2DCF9"
+        "#B3BFE5"
       ],
       "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
         "#22204680"
