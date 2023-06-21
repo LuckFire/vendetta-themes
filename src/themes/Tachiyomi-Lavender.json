@@ -1,10 +1,12 @@
 {
   "name": "Tachiyomi Lavender",
   "description": "A theme inspired by Tachiyomi's Lavender color scheme.",
-  "authors": [{
+  "authors": [
+    {
       "name": "LuckFire",
       "id": 399416615742996480
-  }],
+    }
+  ],
   "semanticColors": {
       "ACTIVITY_CARD_BACKGROUND": [
         "#222046"
@@ -48,23 +50,20 @@
       "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
         "#18163299"
       ],
-      "BUTTON_OUTLINE_BRAND_BACKGROUND": [
-        "#ffffff00"
-      ],
       "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": [
-        "#4752c4"
+        "#794ef4"
       ],
       "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": [
-        "#5865f2"
+        "#9a79f7"
       ],
       "BUTTON_OUTLINE_BRAND_BORDER": [
-        "#5865f2"
+        "#9a79f7"
       ],
       "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
-        "#4752c4"
+        "#794ef4"
       ],
       "BUTTON_OUTLINE_BRAND_BORDER_HOVER": [
-        "#5865f2"
+        "#9a79f7"
       ],
       "BUTTON_OUTLINE_BRAND_TEXT": [
         "#ffffff"
@@ -87,38 +86,29 @@
       "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": [
         "#27253C"
       ],
-      "BUTTON_OUTLINE_PRIMARY_TEXT": [
-        "#ffffff"
-      ],
-      "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": [
-        "#ffffff"
-      ],
-      "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": [
-        "#ffffff"
-      ],
       "BUTTON_SECONDARY_BACKGROUND": [
         "#27253C"
       ],
       "BUTTON_SECONDARY_BACKGROUND_ACTIVE": [
-        "#80848e"
+        "#232049"
       ],
       "BUTTON_SECONDARY_BACKGROUND_DISABLED": [
         "#27253C"
       ],
       "BUTTON_SECONDARY_BACKGROUND_HOVER": [
-        "#6d6f78"
+        "#1C193A"
       ],
       "CHANNEL_ICON": [
-        "#8F94A3"
+        "#E0E7FD"
       ],
       "CHANNEL_TEXT_AREA_PLACEHOLDER": [
-        "#6d6f78"
+        "#8F94A3"
       ],
       "CHANNELS_DEFAULT": [
         "#B3BFE5"
       ],
       "CHANNELTEXTAREA_BACKGROUND": [
-        "#383a40"
+        "#111128"
       ],
       "CHAT_BACKGROUND": [
         "#111128"
@@ -172,7 +162,7 @@
         "#8F94A3"
       ],
       "INTERACTIVE_ACTIVE": [
-        "#e0e7fd"
+        "#FFFFFF"
       ],
       "INTERACTIVE_HOVER": [
         "#B3BFE5"
@@ -181,7 +171,7 @@
         "#27253C"
       ],
       "INTERACTIVE_NORMAL": [
-        "#8F94A3"
+        "#E0E7FD"
       ],
       "MODAL_BACKGROUND": [
         "#111128"
@@ -196,31 +186,55 @@
         "#1D1B3C"
       ],
       "TEXT_BRAND": [
-        "#949cf7"
+        "#a486f8"
       ],
       "TEXT_MUTED": [
         "#8F94A3"
       ],
       "TEXT_NORMAL": [
-        "#B3BFE5"
-      ],
-      "TEXTBOX_MARKDOWN_SYNTAX": [
-        "#B3BFE5"
+        "#E0E7FD"
       ],
       "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
         "#22204680"
       ]
-    },
+  },
   "rawColors": {
+      "PRIMARY_300": "#232049",
+      "PRIMARY_360": "#232049",
+      "PRIMARY_400": "#1F1D41",
+      "PRIMARY_500": "#1C193A",
       "PRIMARY_530": "#0C0C1D",
       "PRIMARY_600": "#111128",
       "PRIMARY_630": "#181632",
       "PRIMARY_660": "#1D1B3C",
       "PRIMARY_700": "#222046",
       "PRIMARY_800": "#181632",
+      "BRAND_100": "#f5f2fe",
+      "BRAND_130": "#e1d7fd",
+      "BRAND_160": "#c5b2fa",
+      "BRAND_200": "#b8a1f9",
+      "BRAND_230": "#b39bf9",
+      "BRAND_260": "#b197f9",
+      "BRAND_300": "#ac90f8",
+      "BRAND_330": "#a98df8",
+      "BRAND_345": "#a78af8",
+      "BRAND_360": "#a486f8",
+      "BRAND_400": "#a283f8",
+      "BRAND_430": "#9f80f7",
+      "BRAND_460": "#9d7cf7",
       "BRAND_500": "#9a79f7",
-      "PREMIUM_TIER_0_PURPLE": "#9a79f7",
-      "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS": "#9a79f7",
-      "PREMIUM_TIER_1_BLUE_FOR_GRADIENTS": "#9a79f7"
-  }
+      "BRAND_530": "#8f6bf6",
+      "BRAND_560": "#794ef4",
+      "BRAND_600": "#5729d8",
+      "BRAND_630": "#343b8f",
+      "BRAND_660": "#2d347d",
+      "BRAND_700": "#232861",
+      "BRAND_730": "#21265b",
+      "BRAND_760": "#1e2353",
+      "BRAND_800": "#1a1e49",
+      "BRAND_830": "#141738",
+      "BRAND_860": "#0d0f24",
+      "BRAND_900": "#04050c"
+  },
+  "spec": 2
 }
