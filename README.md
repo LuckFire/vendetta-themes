@@ -1,8 +1,7 @@
 # Vendetta Themes
-A collection of themes that I've made for Vendetta.
+A collection of themes that I've made for Vendetta (and my overly-complicated development environment).
 
 ### Tachiyomi Lavender
-A theme inspired by Tachiyomi's Lavender color scheme. Looks best on TabsV2.
 ![banner](https://luckfire.github.io/vendetta-themes/assets/tachiyomi-lavender-banner.png)
 
 # Credits

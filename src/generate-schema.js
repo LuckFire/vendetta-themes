@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 const { semanticColors, rawColors } = JSON.parse(readFileSync('./src/colors.json'))
 
-// TODO: Add missing schema info
 writeFileSync('./.vscode/JSON_Schema/vendetta-theme.json', JSON.stringify({
     "$schema": "http://json-schema.org/draft-06/schema#",
     "title": "Vendetta Theme Schema",
@@ -15,6 +14,14 @@ writeFileSync('./.vscode/JSON_Schema/vendetta-theme.json', JSON.stringify({
             "items": {
                 "name": { "type": "string" },
                 "id": { "type": "number" }
+            }
+        },
+        "background": {
+            "type": "object",
+            "properties": {
+                "blur": { "type": "integer" },
+                "url": { "type": "string" },
+                "alpha": { "type": "integer" }
             }
         },
         "semanticColors": {

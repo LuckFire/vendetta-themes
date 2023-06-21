@@ -21,6 +21,20 @@
                 }
             }
         },
+        "background": {
+            "type": "object",
+            "properties": {
+                "blur": {
+                    "type": "integer"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "alpha": {
+                    "type": "integer"
+                }
+            }
+        },
         "semanticColors": {
             "type": "object",
             "properties": {
