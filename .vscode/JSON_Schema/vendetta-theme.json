@@ -13,11 +13,17 @@
         "authors": {
             "type": "array",
             "items": {
-                "name": {
-                    "type": "string"
-                },
-                "id": {
-                    "type": "number"
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": [
+                            "string",
+                            "number"
+                        ]
+                    }
                 }
             }
         },

@@ -3,7 +3,7 @@ A collection of themes that I've made for Vendetta (and my overly-complicated de
 
 ### Tachiyomi Lavender
 ![banner](https://luckfire.github.io/vendetta-themes/assets/tachiyomi-lavender/banner.png)
-<details><summary>More Previews</summary>
+<details><summary>Previews</summary>
 
 ## TabsV1
 ![tabsv1](https://luckfire.github.io/vendetta-themes/assets/tachiyomi-lavender/tabsv1.png)
