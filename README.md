@@ -1,7 +1,9 @@
 # Vendetta Themes
-WIP :Okayge:
+A collection of themes that I've made for Vendetta.
 
-Is this overcomplicated? Yes. Do I care? yes..
+### Tachiyomi Lavender
+A theme inspired by Tachiyomi's Lavender color scheme. Looks best on TabsV2.
+![banner](https://luckfire.github.io/vendetta-themes/assets/tachiyomi-lavender-banner.png)
 
-## Credits
+# Credits
 - @pylixonly for the [default colors list](https://cdn.discordapp.com/attachments/1089788093009240104/1091029034529460314/default_colors_list.json).

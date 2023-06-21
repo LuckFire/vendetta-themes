@@ -1,6 +1,6 @@
 {
   "name": "Tachiyomi Lavender",
-  "description": "A theme inspired by Tachiyomi's color scheme.",
+  "description": "A theme inspired by Tachiyomi's Lavender color scheme.",
   "authors": [{
       "name": "LuckFire",
       "id": 399416615742996480
@@ -218,7 +218,6 @@
       "PRIMARY_660": "#1D1B3C",
       "PRIMARY_700": "#222046",
       "PRIMARY_800": "#181632",
-      "YELLOW_300": "#5729D8",
       "BRAND_500": "#9a79f7",
       "PREMIUM_TIER_0_PURPLE": "#9a79f7",
       "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS": "#9a79f7",
