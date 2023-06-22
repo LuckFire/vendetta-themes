@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "app": "node ./src/app.js",
-    "schema": "node ./src/generate-schema.js"
+    "schema": "node ./src/schema/generate-schema.js"
   },
   "author": "LuckFire",
   "license": "MIT",
