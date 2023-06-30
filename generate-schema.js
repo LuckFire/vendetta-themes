@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs';
-const { semanticColors, rawColors } = JSON.parse(readFileSync('./src/schema/colors.json'))
+const { semanticColors, rawColors } = JSON.parse(readFileSync('./src/themes/Testing-Theme.json'))
 
 writeFileSync('./.vscode/JSON_Schema/vendetta-theme.json', JSON.stringify({
     "$schema": "http://json-schema.org/draft-06/schema#",
