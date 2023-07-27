@@ -179,6 +179,9 @@
       "MODAL_FOOTER_BACKGROUND": [
         "#181632"
       ],
+      "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+        "#222046"
+      ],
       "SPOILER_HIDDEN_BACKGROUND": [
         "#222046"
       ],
@@ -199,6 +202,7 @@
       ]
   },
   "rawColors": {
+      "PRIMARY_460": "#181632",
       "PRIMARY_530": "#0C0C1D",
       "PRIMARY_600": "#111128",
       "PRIMARY_630": "#181632",
