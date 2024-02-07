@@ -1,3 +1,6 @@
+# Archived
+Please refer to the [#eol](https://discord.com/channels/1015931589865246730/1204506137789997067) channel in the Vendetta server for more information.
+
 # Vendetta Themes
 A collection of themes that I've made for Vendetta (and my overly-complicated development environment).
 
